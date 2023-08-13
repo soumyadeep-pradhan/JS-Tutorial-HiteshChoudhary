@@ -26,6 +26,7 @@ earlier values came in xml structure which was complex
 now - json :this is essentially an object
 
 */
+//object without name
 // {
 //     "name": "hitesh",
 //     "coursenamee": "js in hindi",
