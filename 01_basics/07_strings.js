@@ -3,7 +3,7 @@ const repoCount = 50
 //console.log(name+repoCount+ " Value"); outdated
 // console.log(`Hello my name is ${name} and my repoCount is ${repoCount}`);//modern way--> string interpolation
 const gameName = new String('abcd-efgh-ijkl') //string is object 
-console.log(gameName[1]);
+console.log(gameName[1]); //key value pair check in browser
 // console.log(gameName.__proto__);//object empty
 
 // console.log(gameName.length);
