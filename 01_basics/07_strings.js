@@ -7,7 +7,7 @@ console.log(gameName[1]); //key value pair check in browser
 // console.log(gameName.__proto__);//object empty
 
 // console.log(gameName.length);
-// console.log(gameName.toUpperCase());//original string is not changed
+// console.log(gameName.toUpperCase());//original string is not changed since it is primitive
 // console.log(gameName.charAt(4));
 // console.log(gameName.indexOf('f'));
 const newString = gameName.substring(0,4)//cant give -ve values
