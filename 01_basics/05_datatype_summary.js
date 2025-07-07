@@ -17,7 +17,7 @@ const heros = ["shaktiman","naaraj", "doga"]//arary
 let myObj ={
     name:"Soumyadeep",
     age:21,
-}//object
+}//object within curly braces{}
 
 //funtion can be stored in variable
 const myfunction = function(){
