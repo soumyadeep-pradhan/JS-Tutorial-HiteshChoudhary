@@ -1,0 +1,64 @@
+document.getElementById('title')
+<h1 id=​"title" class=​"heading">​ DOM Learning ​</h1>​
+document.getElementById('title').id
+'title'
+document.getElementById('title').class
+undefined
+document.getElementById('title').className
+'heading'
+document.getElementById('title').getAttribute('class','id')
+'heading'
+document.getElementById('title').getAttribute('class')
+'heading'
+document.getElementById('title').getAttribute('id')
+'title'
+document.getElementById('title').setAttribute('id','tio')
+undefined
+
+const myTitle = document.getElementById('title')
+undefined
+
+const myTitle = document.getElementById('title')
+undefined
+myTitle
+<h1 id=​"title" class=​"heading">​ DOM Learning ​</h1>​
+myTitle
+<h1 id=​"title" class=​"heading">​ DOM Learning ​</h1>​
+
+
+
+const myTitle = document.getElementById('title')
+undefined
+myTitle
+<h1 id=​"title" class=​"heading">​ DOM Learning ​</h1>​
+myTitle
+<h1 id=​"title" class=​"heading">​ DOM Learning ​</h1>​
+myTitle.style.backgroundColor ='#343252'
+'#343252'
+myTitle.style.backgroundColor ='Red'
+'Red'
+myTitle.style.borderRadius = 19px
+VM1844:1 Uncaught SyntaxError: Invalid or unexpected token
+myTitle.style.borderRadius ="15px"
+'15px'
+myTitle.textContent
+'\n            DOM Learning\n        '
+myTitle.innerHTML
+'\n            DOM Learning\n        '
+myTitle.innerText
+'DOM Learning'
+
+const myTitle = document.getElementById('title')
+undefined
+myTitle.textContent
+'\n            DOM Learning test text\n        '
+myTitle.innerText
+'DOM Learning'
+myTitle.innerHTML
+'\n            DOM Learning <span style="display: none">test text</span>\n        '
+document.getElementsByClassName("heading")
+HTMLCollection [h1#title.heading, title: h1#title.heading]0: h1#title.headingtitle: h1#title.headingaccessKey: ""align: ""ariaActiveDescendantElement: nullariaAtomic: nullariaAutoComplete: nullariaBrailleLabel: nullariaBrailleRoleDescription: nullariaBusy: nullariaChecked: nullariaColCount: nullariaColIndex: nullariaColIndexText: nullariaColSpan: nullariaControlsElements: nullariaCurrent: nullariaDescribedByElements: nullariaDescription: nullariaDetailsElements: nullariaDisabled: nullariaErrorMessageElements: nullariaExpanded: nullariaFlowToElements: nullariaHasPopup: nullariaHidden: nullariaInvalid: nullariaKeyShortcuts: nullariaLabel: nullariaLabelledByElements: nullariaLevel: nullariaLive: nullariaModal: nullariaMultiLine: nullariaMultiSelectable: nullariaOrientation: nullariaPlaceholder: nullariaPosInSet: nullariaPressed: nullariaReadOnly: nullariaRelevant: nullariaRequired: nullariaRoleDescription: nullariaRowCount: nullariaRowIndex: nullariaRowIndexText: nullariaRowSpan: nullariaSelected: nullariaSetSize: nullariaSort: nullariaValueMax: nullariaValueMin: nullariaValueNow: nullariaValueText: nullassignedSlot: nullattributeStyleMap: StylePropertyMap {size: 0}attributes: NamedNodeMap {0: id, 1: class, id: id, class: class, length: 2}autocapitalize: ""autofocus: falsebaseURI: "https://humble-space-disco-qwxg75r5qgg3444-5500.app.github.dev/06_DOM/2.html"childElementCount: 1childNodes: NodeList(3) [text, span, text]children: HTMLCollection [span]classList: DOMTokenList ['heading', value: 'heading']className: "heading"clientHeight: 38clientLeft: 0clientTop: 0clientWidth: 227contentEditable: "inherit"currentCSSZoom: 1dataset: DOMStringMap {}dir: ""draggable: falseeditContext: nullelementTiming: ""enterKeyHint: ""firstChild: textfirstElementChild: spanhidden: falseid: "title"inert: falseinnerHTML: "\n            DOM Learning <span style=\"display: none\">test text</span>\n        "innerText: "DOM Learning"inputMode: ""isConnected: trueisContentEditable: falselang: ""lastChild: textlastElementChild: spanlocalName: "h1"namespaceURI: "http://www.w3.org/1999/xhtml"nextElementSibling: pnextSibling: textnodeName: "H1"nodeType: 1nodeValue: nullnonce: ""offsetHeight: 38offsetLeft: 8offsetParent: body.bg-blackoffsetTop: 21offsetWidth: 227onabort: nullonanimationend: nullonanimationiteration: nullonanimationstart: nullonauxclick: nullonbeforecopy: nullonbeforecut: nullonbeforeinput: nullonbeforematch: nullonbeforepaste: nullonbeforetoggle: nullonbeforexrselect: nullonblur: nulloncancel: nulloncanplay: nulloncanplaythrough: nullonchange: nullonclick: nullonclose: nulloncommand: nulloncontentvisibilityautostatechange: nulloncontextlost: nulloncontextmenu: nulloncontextrestored: nulloncopy: nulloncuechange: nulloncut: nullondblclick: nullondrag: nullondragend: nullondragenter: nullondragleave: nullondragover: nullondragstart: nullondrop: nullondurationchange: nullonemptied: nullonended: nullonerror: nullonfocus: nullonformdata: nullonfullscreenchange: nullonfullscreenerror: nullongotpointercapture: nulloninput: nulloninvalid: nullonkeydown: nullonkeypress: nullonkeyup: nullonload: nullonloadeddata: nullonloadedmetadata: nullonloadstart: nullonlostpointercapture: nullonmousedown: nullonmouseenter: nullonmouseleave: nullonmousemove: nullonmouseout: nullonmouseover: nullonmouseup: nullonmousewheel: nullonpaste: nullonpause: nullonplay: nullonplaying: nullonpointercancel: nullonpointerdown: nullonpointerenter: nullonpointerleave: nullonpointermove: nullonpointerout: nullonpointerover: nullonpointerrawupdate: nullonpointerup: nullonprogress: nullonratechange: nullonreset: nullonresize: nullonscroll: nullonscrollend: nullonscrollsnapchange: nullonscrollsnapchanging: nullonsearch: nullonsecuritypolicyviolation: nullonseeked: nullonseeking: nullonselect: nullonselectionchange: nullonselectstart: nullonslotchange: nullonstalled: nullonsubmit: nullonsuspend: nullontimeupdate: nullontoggle: nullontransitioncancel: nullontransitionend: nullontransitionrun: nullontransitionstart: nullonvolumechange: nullonwaiting: nullonwebkitanimationend: nullonwebkitanimationiteration: nullonwebkitanimationstart: nullonwebkitfullscreenchange: nullonwebkitfullscreenerror: nullonwebkittransitionend: nullonwheel: nullouterHTML: "<h1 id=\"title\" class=\"heading\">\n            DOM Learning <span style=\"display: none\">test text</span>\n        </h1>"outerText: "DOM Learning"ownerDocument: documentparentElement: divparentNode: divpart: DOMTokenList [value: '']popover: nullprefix: nullpreviousElementSibling: nullpreviousSibling: textrole: nullscrollHeight: 38scrollLeft: 0scrollTop: 0scrollWidth: 227shadowRoot: nullslot: ""spellcheck: truestyle: CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}tabIndex: -1tagName: "H1"textContent: "\n            DOM Learning test text\n        "title: ""translate: truevirtualKeyboardPolicy: ""writingSuggestions: "true"[[Prototype]]: HTMLHeadingElement(...)length: 1[[Prototype]]: HTMLCollection
+document.getElementsByClassName("heading").id
+undefined
+document.querySelector('h1')
+<h1 id=​"title" class=​"heading">​…​</h1>​
