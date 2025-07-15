@@ -11,3 +11,4 @@ console.log(document.links);//html collection of links not array!!
 console.log(document.links[2]);//2nd link
 
 document.getElementById('firstHeading')
+document.getElementById('firstHeading').innerHTML = "<h1>Chai aur Code</h1>"
