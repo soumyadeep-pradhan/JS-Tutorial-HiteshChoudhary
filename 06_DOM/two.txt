@@ -116,3 +116,19 @@ VM2221:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color'
 
 templiLists[1].style.color = 'red' //it is ok
 'red'
+
+const myH3 = document.querySelectorAll('h3')
+undefined 
+myH3 //here it is nodelist which contain one element
+NodeList [h3]
+
+====querySelector and querySelectorAll returns different datatype====
+
+const templiLists = document.querySelectorAll('li')
+undefined
+
+templiLists.forEach(
+    function (l){
+        l.style.backgroundColor = 'green'
+    }
+)
