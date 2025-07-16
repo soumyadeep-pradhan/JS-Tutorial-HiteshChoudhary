@@ -132,3 +132,37 @@ templiLists.forEach(
         l.style.backgroundColor = 'green'
     }
 )
+
+document.getElementsByClassName('list-item')
+HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+//we get HTMLCollection , no loop option here like forEach
+
+hence it will not work.....
+tempClassList.forEach(function(li){
+    console.log(li)}
+)
+VM3473:1 Uncaught TypeError: tempClassList.forEach is not a function
+    at <anony
+    
+************
+To convert HTMLCollection 
+
+Array.from(tempClassList)
+(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+
+const tempClassList =document.getElementsByClassName('list-item')
+undefined
+const convertedArray = Array.from(tempClassList)
+undefined
+convertedArray.forEach(function(li){li.color='orange'})
+undefined
+convertedArray.forEach(function(li){li.style.color='orange'})
+
+const myh2 = document.querySelectorAll('h2')
+undefined
+myh2.forEach(
+    function(h){
+        h.style.color = 'red'
+    }
+)
+unde

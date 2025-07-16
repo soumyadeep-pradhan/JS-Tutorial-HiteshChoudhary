@@ -1,0 +1,23 @@
+const myh2 = document.querySelectorAll('h2')
+undefined
+myh2.forEach(
+    function(h){
+        h.style.color = 'red'
+    }
+)
+undefined
+myh2[0].innerHTML
+'Contents'
+myh2[0].innerText
+''
+myh2[1].innerText
+'History'
+
+myh2.forEach(
+    function(h){
+        h.style.color = 'white';
+        h.style.backgroundColor='blue';
+        h.style.padding='10px';
+        h.innerText="Soumyadeep";
+    }
+)
