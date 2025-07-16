@@ -63,5 +63,56 @@ HTMLCollection [h1#title.heading, title: h1#title.heading]0: h1#title.headingti
 document.getElementsByClassName("heading").id
 undefined
 
-document.querySelector('h1')
+document.querySelector('h1') //will get 1st h1
 <h1 id=​"title" class=​"heading">​…​</h1>​
+
+document.querySelector('h1')
+<h1 id=​"title" class=​"heading">​…​</h1>​" DOM Learning "<span style=​"display:​ none">​test text​</span>​</h1>​
+
+document.querySelector('#title') # for id
+<h1 id=​"title" class=​"heading">​…​</h1>​" DOM Learning "<span style=​"display:​ none">​test text​</span>​</h1>​
+'
+document.querySelector('.heading')  . for class
+<h1 id=​"title" class=​"heading">​…​</h1>​
+
+document.querySelector("input[type='password']")
+<input type=​"password" name=​"input" id=​"in-id">​
+
+document.querySelector("input[type='password']")
+<input type=​"password" name=​"input" id=​"in-id">​
+
+document.querySelector('ul')
+<ul>​…​</ul>​<li>​…​</li>​<li>​…​</li>​<li>​…​</li>​</ul>​
+
+const myul = document.querySelector('ul')
+undefined
+
+myul.querySelector('li') //selects first li
+<li>​::marker​"one"</li>​ 
+
+const myli=myul.querySelector('li')
+undefined
+myli.style.backgroundColor = 'green'
+'green'
+myli.style.padding = '10px'
+'10px'
+
+myli.innerText = 'new text'
+'new text'
+
+------NodeList and HTMLCollection are not pure array-----
+in NodeList map is not there but for array it is present
+
+document.querySelectorAll('li')
+NodeList(3) [li, li, li]0: li1: li2: lilength: 3[[Prototype]]: NodeList
+const templiLists = document.querySelectorAll('li')
+undefined
+templiLists
+NodeList(3) [li, li, li]0: li1: li2: lilength: 3[[Prototype]]: NodeList
+
+templiLists.style.color='green' /can't do it
+VM2221:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:24
+
+templiLists[1].style.color = 'red' //it is ok
+'red'
